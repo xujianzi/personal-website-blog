@@ -2,8 +2,8 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base:"/docs/",
-  head: [["link", {rel: "icon", href:"/docs/homepage-logo.svg"}]],
+  base:"/personal-website-blog/",
+  head: [["link", {rel: "icon", href:"homepage-logo.svg"}]],
   title: "Jian Xu's Personal Website",
   description: "Academic and Code Blog",
   themeConfig: {
