@@ -3,11 +3,11 @@
 layout: home
 
 hero:
-  name: "Jian Xu's Personal Website"
-  text: "Academic and Code Blog"
+  name: "Academic and Code Blog"
+  text: "Build knowledge library"
   tagline: My great project tagline
   image:
-    src: /logo.png
+    src: /hacker.svg
     alt: MyLogo
   actions:
     - theme: brand
