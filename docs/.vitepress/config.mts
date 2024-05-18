@@ -13,19 +13,19 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Projects', link: '/projects/' },
-      { text: 'Researches', link: '/' },
+      { text: 'Researches', link: '/researches/' },
       { text: 'Publications', link: '/publications/' },
       { text: 'Notes', items: [
-        { text: 'Java', link: '/' },
+        { text: 'Java', link: '/notes/' },
         { text: 'VitePress', link: '/notes/' },
         { // 带分割线的导航栏
           items: [
-            { text: 'Vue', link: '/' },
+            { text: 'Vue', link: '/notes/' },
             { text: 'Redis', link: '/notes/' },
           ]
         }
       ] },
-      { text: 'About Me', link: '/' },
+      { text: 'About Me', link: '/about/' },
     ],
 
     // sidebar: [
