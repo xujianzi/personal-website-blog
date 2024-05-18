@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base:"/personal-website-blog/",
+  // base:"/personal-website-blog/",  // uncheck if using the github repo, change it to your own repo
   head: [["link", {rel: "icon", href:"homepage-logo.svg"}]],
   title: "Jian Xu's Personal Website",
   description: "Academic and Code Blog",
