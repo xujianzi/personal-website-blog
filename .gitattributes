@@ -1,0 +1,12 @@
+# 忽略文档文件
+*.md linguist-documentation
+
+# 忽略配置文件
+vite.config.js linguist-documentation
+package.json linguist-documentation
+package-lock.json linguist-documentation
+yarn.lock linguist-documentation
+
+# 忽略生成的文件夹
+dist/ linguist-vendored
+node_modules/ linguist-vendored
