@@ -16,8 +16,8 @@ export default defineConfig({
       { text: 'Researches', link: '/researches/' },
       { text: 'Publications', link: '/publications/' },
       { text: 'Notes', items: [
-        { text: 'Java', link: '/notes/' },
-        { text: 'VitePress', link: '/notes/' },
+        { text: 'Java', link: '/notes/java/' },
+        { text: 'VitePress', link: '/notes/vitepress/' },
         { // 带分割线的导航栏
           items: [
             { text: 'Vue', link: '/notes/' },
@@ -38,10 +38,10 @@ export default defineConfig({
     //   }
     // ],
     sidebar:{
-      '/notes/':[{
-        text: 'Notes',
+      '/notes/java':[{
+        text: 'Page Navigation',
         items: [
-          { text: 'Blog Design', link: '/notes/vitepress-intro' },
+          { text: 'springmvc-notes', link: '/notes/java/SpringMVC-review' },
           { text: 'Runtime API Examples', link: '/api-examples' }
         ]
       }],
